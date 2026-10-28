@@ -2,12 +2,14 @@
 AIGC:
     Label: "1"
     ContentProducer: 001191440300708461136T1XGW3
-    ProduceID: 7f04b5e7c98af89451e8d7aaef427a6f_e0e0a103d26a11f18068525400de85a5
-    ReservedCode1: 6YPhvVG7OsuPaP/Y7nSK38mIKzVHQA49PqRbrIoCJer4jV2SyN3sanvR7NVUmRRoHk/9D83Fwmkh0dmqG4eHMsWm4cenPxPE8zbtSm1x8FQB3ppi33tnDJhzQnrthtxb1NAj45YaJ6UlsbX2MURyNNQpkSfRcNrKf5FMPtkbz5QvebYYiuuRWTcj0Wo=
+    ProduceID: 7f04b5e7c98af89451e8d7aaef427a6f_fd34f88ad26d11f1a301525400cd780f
+    ReservedCode1: z1CmKJB3fLqFtbqyWv/ULWmNkDCOOkk2+ajOFrGWAqzEphc9Mq6ytguA7VlZBlC1B1FaZFaccffofnUqawFta0+VOPc+sf8xW3ugSs+ptU1rj1sziezLlqpYNswimBOmuqYpgbAyFiZiJPPjKrlBtlC0DCepwK6QfQpwL/bIPunQVyftfCke0Evp/zQ=
     ContentPropagator: 001191440300708461136T1XGW3
-    PropagateID: 7f04b5e7c98af89451e8d7aaef427a6f_e0e0a103d26a11f18068525400de85a5
-    ReservedCode2: 6YPhvVG7OsuPaP/Y7nSK38mIKzVHQA49PqRbrIoCJer4jV2SyN3sanvR7NVUmRRoHk/9D83Fwmkh0dmqG4eHMsWm4cenPxPE8zbtSm1x8FQB3ppi33tnDJhzQnrthtxb1NAj45YaJ6UlsbX2MURyNNQpkSfRcNrKf5FMPtkbz5QvebYYiuuRWTcj0Wo=
+    PropagateID: 7f04b5e7c98af89451e8d7aaef427a6f_fd34f88ad26d11f1a301525400cd780f
+    ReservedCode2: z1CmKJB3fLqFtbqyWv/ULWmNkDCOOkk2+ajOFrGWAqzEphc9Mq6ytguA7VlZBlC1B1FaZFaccffofnUqawFta0+VOPc+sf8xW3ugSs+ptU1rj1sziezLlqpYNswimBOmuqYpgbAyFiZiJPPjKrlBtlC0DCepwK6QfQpwL/bIPunQVyftfCke0Evp/zQ=
 ---
+
+
 
 # 青屿 QINGYU · 技术设计文档（TECH_DESIGN）
 
@@ -204,4 +206,5 @@ function parseHash(): string | null {
 | 首屏 | 单页面无路由分包，首屏即完整 bundle；如需优化可做 `manualChunks` 拆分 |
 | 图片 | 项目封面为 CSS 渐变 + 文字，无外链图片请求，加载极快 |
 | 兼容性 | 现代浏览器；`backdrop-filter` 不支持时退化为不透明背景（不影响可用性） |
+*（内容由AI生成，仅供参考）*
 *（内容由AI生成，仅供参考）*

@@ -2,12 +2,14 @@
 AIGC:
     Label: "1"
     ContentProducer: 001191440300708461136T1XGW3
-    ProduceID: 7f04b5e7c98af89451e8d7aaef427a6f_e1c96da8d26a11f18068525400de85a5
-    ReservedCode1: mo26yl/iECi7jETIfTs3joBJYDlsKLMD1L2hypccl+m+CO19oxnIJApp5MTWUptjyjCtLDEH688fMOERkvnnesEmcky7ULm6fjOnhZ+TwqeNFhzgbBhsPvgnhMId1DYqlFiz7CqRFuOJnkCWlnfFqKj0Yx3HC13DkRBSZZ3fRj39UsvPrB6VINOI/0c=
+    ProduceID: 7f04b5e7c98af89451e8d7aaef427a6f_fecb0afad26d11f1a301525400cd780f
+    ReservedCode1: vKY9jWsFo4roXjvLeedHPTK9Dry234bfFBIZv0AUcqIb1vNAnVYw/FccthcxZ1Etc7sMQ37WpRWnhlZSSL4YWC2rVGCNdqE4efWxe3I/ve5ZnJpQPLYUqbjh02PP2/JLRKpV8/ykI/Pd14pPYI0AAEO3sEcFJ4nYsawp8cgwHUA3ko1BCuI0iUEJITs=
     ContentPropagator: 001191440300708461136T1XGW3
-    PropagateID: 7f04b5e7c98af89451e8d7aaef427a6f_e1c96da8d26a11f18068525400de85a5
-    ReservedCode2: mo26yl/iECi7jETIfTs3joBJYDlsKLMD1L2hypccl+m+CO19oxnIJApp5MTWUptjyjCtLDEH688fMOERkvnnesEmcky7ULm6fjOnhZ+TwqeNFhzgbBhsPvgnhMId1DYqlFiz7CqRFuOJnkCWlnfFqKj0Yx3HC13DkRBSZZ3fRj39UsvPrB6VINOI/0c=
+    PropagateID: 7f04b5e7c98af89451e8d7aaef427a6f_fecb0afad26d11f1a301525400cd780f
+    ReservedCode2: vKY9jWsFo4roXjvLeedHPTK9Dry234bfFBIZv0AUcqIb1vNAnVYw/FccthcxZ1Etc7sMQ37WpRWnhlZSSL4YWC2rVGCNdqE4efWxe3I/ve5ZnJpQPLYUqbjh02PP2/JLRKpV8/ykI/Pd14pPYI0AAEO3sEcFJ4nYsawp8cgwHUA3ko1BCuI0iUEJITs=
 ---
+
+
 
 # AGENTS.md
 
@@ -82,4 +84,5 @@ src/
 - 博客内容为项目自有 MD 文件（可信来源），`dangerouslySetInnerHTML` 使用安全
 - 若需引入新依赖，优先选择轻量包并说明理由；禁止为小功能引入重型框架
 - 不要修改 `dist/` 产物，统一由 `npm run build` 生成
+*（内容由AI生成，仅供参考）*
 *（内容由AI生成，仅供参考）*

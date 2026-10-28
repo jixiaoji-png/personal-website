@@ -32,6 +32,9 @@ export default function Hero() {
             <a className="btn btn-primary" href="#projects">
               看看项目
             </a>
+            <a className="btn btn-ghost" href="#docs">
+              项目文档
+            </a>
             <a className="btn btn-ghost" href="#contact">
               联系我
             </a>

@@ -5,6 +5,7 @@ const links = [
   { href: '#skills', label: '技能' },
   { href: '#projects', label: '项目' },
   { href: '#blog', label: '博客' },
+  { href: '#docs', label: '文档' },
   { href: '#contact', label: '联系' },
 ]
 
