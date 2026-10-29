@@ -10,30 +10,30 @@ export interface SkillCategory {
 
 export const skills: SkillCategory[] = [
   {
-    cat: '前端',
+    cat: '后端开发',
     items: [
-      { name: 'TypeScript / JavaScript', level: 92 },
-      { name: 'React / Vue', level: 90 },
-      { name: 'CSS 工程化 / 动效', level: 86 },
-      { name: 'Vite / Webpack 构建', level: 84 },
+      { name: 'Java', level: 78 },
+      { name: 'Spring Boot', level: 72 },
+      { name: 'MyBatis-Plus', level: 70 },
+      { name: 'MySQL / SQL', level: 68 },
     ],
   },
   {
-    cat: '后端与数据',
+    cat: '前端开发',
     items: [
-      { name: 'Node.js / Express', level: 82 },
-      { name: 'Python / FastAPI', level: 76 },
-      { name: 'SQL / MongoDB', level: 78 },
-      { name: 'Docker / CI 部署', level: 72 },
+      { name: 'HTML / CSS / JavaScript', level: 72 },
+      { name: 'React / Vue', level: 68 },
+      { name: 'Vite 构建', level: 72 },
+      { name: 'TypeScript', level: 62 },
     ],
   },
   {
-    cat: '设计与其他',
+    cat: '嵌入式与移动端',
     items: [
-      { name: 'Figma / 界面设计', level: 80 },
-      { name: '写作 / 技术文档', level: 88 },
-      { name: '摄影 / 修图', level: 74 },
-      { name: 'Git 协作 / 代码评审', level: 86 },
+      { name: '51 单片机（Keil C51 / Proteus）', level: 66 },
+      { name: 'Android（Android Studio / SDK）', level: 60 },
+      { name: 'Python', level: 62 },
+      { name: 'Git 协作', level: 70 },
     ],
   },
 ]

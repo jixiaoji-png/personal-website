@@ -5,7 +5,7 @@ export default function Footer() {
         <p>
           <span className="footer-mark">青屿 QINGYU</span> · 以代码与文字，打理一座安静的小岛
         </p>
-        <p style={{ marginTop: 6 }}>© 2026 林嘉雪 · Built with React & Vite</p>
+        <p style={{ marginTop: 6 }}>© 2026 纪嘉雪 · Built with React & Vite</p>
       </div>
     </footer>
   )

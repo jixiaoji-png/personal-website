@@ -9,7 +9,7 @@ export default function Contact() {
 
   const handleCopy = async () => {
     try {
-      await navigator.clipboard.writeText('hello@qingyu.dev')
+      await navigator.clipboard.writeText('18741690386@139.com')
       setCopied(true)
       setTimeout(() => setCopied(false), 2000)
     } catch {
@@ -55,17 +55,17 @@ export default function Contact() {
               <div className="contact-line">
                 <span className="label">邮箱</span>
                 <span className="copyable" onClick={handleCopy} title="点击复制">
-                  hello@qingyu.dev
+                  18741690386@139.com
                 </span>
                 <span style={{ fontSize: 12, color: 'var(--caramel)' }}>{copied ? '已复制 ✓' : ''}</span>
               </div>
               <div className="contact-line">
                 <span className="label">坐标</span>
-                <span>中国 · 杭州</span>
+                <span>中国 · 大连</span>
               </div>
               <div className="contact-line">
                 <span className="label">状态</span>
-                <span>开放合作中</span>
+                <span>在校学习 · 欢迎交流</span>
               </div>
               <div className="social-links">
                 <a href="https://github.com/example/qingyu" target="_blank" rel="noreferrer">GitHub</a>

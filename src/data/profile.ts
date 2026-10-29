@@ -14,29 +14,29 @@ export interface Profile {
 }
 
 export const profile: Profile = {
-  name: '林嘉雪',
+  name: '纪嘉雪',
   englishName: 'QINGYU',
-  role: '前端开发工程师 / 独立创作者',
+  role: '大连民族大学 · 物联网工程241班学生',
   slogan: '把复杂的世界，整理成温柔而清晰的代码。',
   intro: [
-    '你好，我是嘉雪，一名热爱前端与交互设计的产品型工程师。我相信好的网站不只是信息的陈列，更是一次次有温度的对话——所以我总在追求「干净、克制、有呼吸感」的界面。',
-    '工作之外，我喜欢写作、摄影与徒步。我相信技术应当服务于生活与表达，这也是「青屿」这个小小主页存在的意义：一块属于自己的、安静而开放的小岛。',
+    '你好，我是纪嘉雪，大连民族大学物联网工程专业 241 班学生。主修 Java / Spring Boot / MyBatis-Plus 后端开发，熟悉 MyBatis-Plus 数据层技术；同时在学习 51 单片机（Keil C51 / Proteus 仿真）、Android 开发（Android Studio / SDK / 模拟器）与前端开发（Vite）。',
+    '我相信技术应当服务于生活与表达，这也是「青屿」这个小小主页存在的意义：一块属于自己的、安静而开放的小岛，记录学习路上的代码、思考与成长。',
   ],
   timeline: [
     {
-      time: '2023 — 至今',
-      title: '前端开发工程师 · 某互联网公司',
-      desc: '负责核心业务前端架构，主导组件库建设与性能优化，推动团队 TypeScript 覆盖率从 40% 提升至 90%。',
+      time: '2024 — 至今',
+      title: '大连民族大学 · 物联网工程（物联241）',
+      desc: '主修 Java / Spring Boot / MyBatis-Plus 开发，熟悉 MyBatis-Plus 数据层技术，并持续拓展嵌入式与移动开发能力。',
     },
     {
-      time: '2021 — 2023',
-      title: '全栈开发 · 创业团队',
-      desc: '从零搭建产品 Web 端与数据看板，参与用户增长与交互设计，获得种子轮融资后随产品并入大厂。',
+      time: '2025',
+      title: 'Java 后端开发实践',
+      desc: '基于 Spring Boot + MyBatis-Plus + MySQL 完成课程项目后端开发，熟悉 RESTful 接口设计与数据库建模。',
     },
     {
-      time: '2017 — 2021',
-      title: '软件工程 · 本科',
-      desc: '主修 Web 工程与人机交互，校技术社团负责人，曾获省级程序设计竞赛一等奖。',
+      time: '2026',
+      title: '嵌入式、移动端与前端拓展学习',
+      desc: '学习 51 单片机（Keil C51 / Proteus 仿真）、Android 开发（Android Studio / SDK / 模拟器）与 Vite 前端工程化。',
     },
   ],
 }
